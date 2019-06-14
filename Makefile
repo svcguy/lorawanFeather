@@ -113,7 +113,95 @@ Middlewares/Third_Party/LoRaWAN/Utilities/timeServer.c \
 Middlewares/Third_Party/LoRaWAN/Utilities/trace.c \
 Middlewares/Third_Party/LoRaWAN/Utilities/utilities.c \
 Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.c \
-Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.c
+Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.c \
+Lib/u8g2/csrc/u8x8_setup.c \
+Lib/u8g2/csrc/u8x8_u8toa.c \
+Lib/u8g2/csrc/u8x8_d_ssd1306_96x16.c \
+Lib/u8g2/csrc/u8g2_d_memory.c \
+Lib/u8g2/csrc/u8g2_selection_list.c \
+Lib/u8g2/csrc/u8g2_hvline.c \
+Lib/u8g2/csrc/u8x8_d_ssd1306_128x64_noname.c \
+Lib/u8g2/csrc/u8x8_message.c \
+Lib/u8g2/csrc/u8x8_d_ssd1306_48x64.c \
+Lib/u8g2/csrc/u8x8_d_ssd1305.c \
+Lib/u8g2/csrc/u8g2_kerning.c \
+Lib/u8g2/csrc/u8x8_input_value.c \
+Lib/u8g2/csrc/u8x8_d_st7586s_s028hn118a.c \
+Lib/u8g2/csrc/u8g2_polygon.c \
+Lib/u8g2/csrc/u8x8_d_uc1604.c \
+Lib/u8g2/csrc/u8x8_d_ssd1306_128x32.c \
+Lib/u8g2/csrc/u8x8_d_ssd1322.c \
+Lib/u8g2/csrc/u8x8_d_sbn1661.c \
+Lib/u8g2/csrc/u8g2_input_value.c \
+Lib/u8g2/csrc/u8x8_8x8.c \
+Lib/u8g2/csrc/u8x8_debounce.c \
+Lib/u8g2/csrc/u8x8_d_uc1638.c \
+Lib/u8g2/csrc/u8g2_setup.c \
+Lib/u8g2/csrc/u8x8_d_ist3020.c \
+Lib/u8g2/csrc/u8x8_display.c \
+Lib/u8g2/csrc/u8x8_d_ssd1317.c \
+Lib/u8g2/csrc/u8x8_d_ks0108.c \
+Lib/u8g2/csrc/u8g2_box.c \
+Lib/u8g2/csrc/u8x8_selection_list.c \
+Lib/u8g2/csrc/u8x8_d_ssd1326.c \
+Lib/u8g2/csrc/u8x8_d_st75256.c \
+Lib/u8g2/csrc/u8x8_d_ssd1309.c \
+Lib/u8g2/csrc/u8x8_byte.c \
+Lib/u8g2/csrc/u8x8_d_ssd1607_200x200.c \
+Lib/u8g2/csrc/u8x8_d_pcd8544_84x48.c \
+Lib/u8g2/csrc/u8log.c \
+Lib/u8g2/csrc/u8x8_d_sh1107.c \
+Lib/u8g2/csrc/u8log_u8x8.c \
+Lib/u8g2/csrc/u8g2_message.c \
+Lib/u8g2/csrc/u8x8_d_uc1610.c \
+Lib/u8g2/csrc/u8x8_d_sh1106_72x40.c \
+Lib/u8g2/csrc/u8g2_line.c \
+Lib/u8g2/csrc/u8g2_intersection.c \
+Lib/u8g2/csrc/u8g2_fonts.c \
+Lib/u8g2/csrc/u8x8_d_sh1106_64x32.c \
+Lib/u8g2/csrc/u8x8_d_sed1330.c \
+Lib/u8g2/csrc/u8x8_d_pcf8814_hx1230.c \
+Lib/u8g2/csrc/u8x8_d_il3820_296x128.c \
+Lib/u8g2/csrc/u8x8_d_uc1701_dogs102.c \
+Lib/u8g2/csrc/u8g2_cleardisplay.c \
+Lib/u8g2/csrc/u8x8_d_ssd1325.c \
+Lib/u8g2/csrc/u8g2_font.c \
+Lib/u8g2/csrc/u8x8_d_uc1601.c \
+Lib/u8g2/csrc/u8x8_d_pcf8812.c \
+Lib/u8g2/csrc/u8x8_cad.c \
+Lib/u8g2/csrc/u8x8_d_uc1611.c \
+Lib/u8g2/csrc/u8x8_string.c \
+Lib/u8g2/csrc/u8g2_ll_hvline.c \
+Lib/u8g2/csrc/u8x8_fonts.c \
+Lib/u8g2/csrc/u8x8_d_ld7032_60x32.c \
+Lib/u8g2/csrc/u8x8_d_max7219.c \
+Lib/u8g2/csrc/u8x8_d_st7588.c \
+Lib/u8g2/csrc/u8x8_d_ssd1606_172x72.c \
+Lib/u8g2/csrc/u8x8_d_st7586s_erc240160.c \
+Lib/u8g2/csrc/u8x8_d_stdio.c \
+Lib/u8g2/csrc/u8x8_d_sh1122.c \
+Lib/u8g2/csrc/u8log_u8g2.c \
+Lib/u8g2/csrc/u8g2_circle.c \
+Lib/u8g2/csrc/u8x8_d_ssd1306_64x48.c \
+Lib/u8g2/csrc/u8g2_buffer.c \
+Lib/u8g2/csrc/u8g2_bitmap.c \
+Lib/u8g2/csrc/u8x8_d_lc7981.c \
+Lib/u8g2/csrc/u8x8_d_st7920.c \
+Lib/u8g2/csrc/u8x8_d_t6963.c \
+Lib/u8g2/csrc/u8x8_d_st7567.c \
+Lib/u8g2/csrc/u8x8_d_ls013b7dh03.c \
+Lib/u8g2/csrc/u8x8_d_ssd1327.c \
+Lib/u8g2/csrc/u8x8_d_sh1108.c \
+Lib/u8g2/csrc/u8x8_gpio.c \
+Lib/u8g2/csrc/u8x8_d_uc1608.c \
+Lib/u8g2/csrc/u8x8_d_uc1617.c \
+Lib/u8g2/csrc/u8x8_d_ssd1329.c \
+Lib/u8g2/csrc/u8x8_d_ssd1306_64x32.c \
+Lib/u8g2/csrc/u8g2_d_setup.c \
+Lib/u8g2/csrc/u8x8_d_uc1701_mini12864.c \
+Lib/u8g2/csrc/u8x8_u16toa.c \
+Lib/u8g2/csrc/u8x8_d_a2printer.c \
+Lib/u8g2/csrc/u8x8_d_st7565.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -184,7 +272,8 @@ C_INCLUDES =  \
 -IMiddlewares/Third_Party/LoRaWAN/Mac/region \
 -IMiddlewares/Third_Party/LoRaWAN/Phy \
 -IMiddlewares/Third_Party/LoRaWAN/Utilities \
--ILib/uart_printf
+-ILib/uart_printf \
+-ILib/u8g2/csrc
 
 # compile gcc flags
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
